@@ -1,0 +1,4 @@
+1. in most cases, avoiding N^2 time/space complexity is possible.
+	ways to reduce complexity:
+		- use the first/last/a special element in a list in a smart way
+		- approach the list from both sides
