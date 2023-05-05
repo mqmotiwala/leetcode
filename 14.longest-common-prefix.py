@@ -7,7 +7,7 @@
 # @lc code=start
 class Solution(object):
     def longestCommonPrefix(self, strs):
-        # n time complexity solution
+        # n time complexity solution 
         result = strs[0]
         for string in strs:
             if string == result:
