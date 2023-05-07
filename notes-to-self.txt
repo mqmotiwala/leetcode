@@ -6,3 +6,18 @@
 2. edge cases with strings:
 	- one string is larger than the other in a way that does not make sense.
 	- the strings are the same size
+	
+3. implementing binary search:
+        l = 0
+        r = len(nums)-1
+        while l <= r:
+            m = (l+r)//2
+            if nums[m] == target:
+                return m
+            if nums[m] < target:
+                l = m + 1
+            if nums[m] > target:
+                r = m - 1
+        
+		# executes if target not found, returns which index the target would have been
+        return (m if nums[m] > target else m+1)
