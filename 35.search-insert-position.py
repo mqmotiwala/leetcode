@@ -11,14 +11,12 @@ class Solution(object):
         r = len(nums)-1
         while l <= r:
             m = (l+r)//2
-            print("before: ", l, m, r)
             if nums[m] == target:
                 return m
             if nums[m] < target:
                 l = m + 1
             if nums[m] > target:
                 r = m - 1
-            print("after: ", l, m, r)
         
         return (m if nums[m] > target else m+1)
         
