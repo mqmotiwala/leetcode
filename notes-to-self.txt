@@ -2,3 +2,7 @@
 	ways to reduce complexity:
 		- use the first/last/a special element in a list in a smart way
 		- approach the list from both sides
+
+2. edge cases with strings:
+	- one string is larger than the other in a way that does not make sense.
+	- the strings are the same size
