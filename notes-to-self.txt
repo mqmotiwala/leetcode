@@ -2,11 +2,18 @@
 	ways to reduce complexity:
 		- use the first/last/a special element in a list in a smart way
 		- approach the list from both sides
+        - consider using 2 pointers
 
 2. edge cases with strings:
 	- one string is larger than the other in a way that does not make sense.
 	- the strings are the same size
-	
+
+3. edge cases with arrays:
+    - empty array
+    - single element array
+    - if you're ever forward-looking in an array (list[i+1])
+        make sure you have safeguards in place to avoid array out of bounds error
+
 3. implementing binary search:
         l = 0
         r = len(nums)-1
